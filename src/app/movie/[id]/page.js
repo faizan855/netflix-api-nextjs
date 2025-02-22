@@ -11,7 +11,7 @@ const Page = async ({ params }) => {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'e79480bf95mshff75f0838ca21dcp1c4564jsn82f2e7e428f6',
+            'x-rapidapi-key': '6788a1d86emshdedb3e26ccade92p174c88jsn0e68e0ef16a1',
             'x-rapidapi-host': 'netflix54.p.rapidapi.com'
         }
     };

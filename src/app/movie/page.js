@@ -11,7 +11,7 @@ const Movie = async () => {
 
     const options = {
         method: 'GET', headers: {
-            'x-rapidapi-key': 'e79480bf95mshff75f0838ca21dcp1c4564jsn82f2e7e428f6',
+            'x-rapidapi-key': '6788a1d86emshdedb3e26ccade92p174c88jsn0e68e0ef16a1',
             'x-rapidapi-host': 'netflix54.p.rapidapi.com'
         }
     };
@@ -21,16 +21,19 @@ const Movie = async () => {
     const main_data = data?.[0].episodes;
 
 
+
     // Reference Commenting for Array Hararchy to console log
 
-    // const id = main_data?.[0].summary.id;
+    // const id = main_data?.[0].episodeId;
     // const type = main_data?.[0].summary.type;
     // const title = main_data?.[0].title;
     // const synopsis = main_data?.[0].contextualSynopsis.text;
     // const imgURL = main_data?.[0].interestingMoment._342x192.webp.value.url;
 
 
-    // console.log( id);
+    // console.log( "id",id);
+    // console.log("Fetched Data:", main_data);
+
     // console.log( type);
     // console.log( title);
     // console.log( synopsis);
@@ -45,8 +48,9 @@ const Movie = async () => {
                     <h1>Series & Movies</h1>
                     <div className={styles.card_section}>
                         {
+
                             main_data.map((curElem) => {
-                                return <MovieCard key={curElem.id} {...curElem} />
+                                return <MovieCard key={curElem.episodeId} {...curElem} />
                             })
 
                         }

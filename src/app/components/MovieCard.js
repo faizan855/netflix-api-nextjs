@@ -29,6 +29,8 @@ const MovieCard = (curElem) => {
                         alt={title}
                         width={260}
                         height={200}
+                        priority={true}
+
                     />
                 </div>
                 <div className={styles.card_data}>
