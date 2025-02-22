@@ -13,7 +13,7 @@ const eslintConfig = [
     ...compat.extends("next/core-web-vitals"),
     {
         rules: {
-            "react/no-unescaped-entities": 1,
+            "react/no-unescaped-entities": "off",
         },
     },
 
