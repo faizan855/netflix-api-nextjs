@@ -58,7 +58,7 @@ const Footer = () => {
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
                             <li className={footerStyles.link_name}>Subscribe</li>
-                            <li><input type="text" placeholder="Enter your email" /></li>
+                            <li><input type="text" placeholder="Enter your email" name="subscribe" id="subscribe" /></li>
                             <li><input type="button" value="Subscribe" /></li>
                         </ul>
                     </div>

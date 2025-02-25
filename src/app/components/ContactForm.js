@@ -91,7 +91,7 @@ const ContactForm = () => {
                            value={user.email}
                            onChange={handleChange}
                            required
-                           autoComplete="off"
+                           autoComplete="on"
                     />
                 </label>
             </div>

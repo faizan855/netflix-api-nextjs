@@ -33,10 +33,10 @@ const HeroSection = ({title, imageUrl}) => {
                         alt="watching netflix"
                         width={500}
                         height={500}
-                        priority={true}
                     />
-
                 </div>
+
+
 
             </div>
 

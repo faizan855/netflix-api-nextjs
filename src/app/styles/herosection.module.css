@@ -19,6 +19,14 @@
 /*    }*/
 /*}*/
 
+/*.hero_image img {*/
+
+/*    width: 500px; !* Ensures aspect ratio is maintained *!*/
+/*    height: 500px;*/
+/*    max-width: 100%; !* Adjust size dynamically *!*/
+
+/*}*/
+
 .hero_content{
     display: flex;
     flex-direction: column;

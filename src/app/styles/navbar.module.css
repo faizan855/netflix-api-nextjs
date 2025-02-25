@@ -117,10 +117,14 @@
     .mobile-nav-icon:hover, .close-outline:hover{
         color: #e50914;
     }
+    /*.navbarList2 {*/
+    /*    width: 100%;*/
+    /*    overflow: hidden*/
+    /*}*/
 
     /* hide the original nav menu  */
     .navbarList {
-        width: 100vw;
+        /*width: 100vh;*/
         height: 100vh;
         position: absolute;
         top: 0;
@@ -164,6 +168,7 @@
     }
 
     .active .navbarList {
+        min-width: 100%;
         visibility: visible;
         opacity: 1;
         transform: translateX(0);
